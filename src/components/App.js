@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
+import SearchInput from "./Searchinput";
 const App=()=>{
     return(
         <div>
-            Hello world
+            <SearchInput/>
         </div>
     )
 }
